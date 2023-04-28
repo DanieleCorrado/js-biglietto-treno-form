@@ -9,3 +9,33 @@
 body {
   background-color: violet;
 }
+
+/* Regole container */
+
+.container {
+  width: 80%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.row {
+  margin-right: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+#form-input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#form-input > div {
+  margin-right: 10px;
+}
+
+#ticket-info {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}

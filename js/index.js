@@ -1,4 +1,4 @@
-let Form = document.getElementById("Form");
+let Form = document.getElementById("form");
 let ticketPrice = 0;
 const pricePerKilometre = 0.21;
 
@@ -22,6 +22,7 @@ Form.addEventListener("submit", (e) => {
   }
     console.log(username.value, age.value);
 
-    document.getElementById("ticket-price").innerHTML = `Il prezzo del biglietto è ${ticketPrice.toFixed(2)}`;
+    document.getElementById("ticket-price").innerHTML = `Il prezzo del biglietto è ${ticketPrice.toFixed(2)}` + '\u20AC';
   
-});
+}
+);
