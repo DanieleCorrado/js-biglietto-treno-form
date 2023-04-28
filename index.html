@@ -14,7 +14,7 @@
 
       <div class="container">
 
-        <h1>CALCOLA IL COSTO DEL BIGLIETTO</h1>
+        <h1>CALCOLA IL PREZZO DEL BIGLIETTO</h1>
   
         <form action="" id="form">
   
@@ -48,7 +48,7 @@
   
           <div class=" row">
   
-          <button type="submit">Submit</button>
+          <button class="submit" type="submit">Genera</button>
   
           </div>
           
@@ -57,8 +57,43 @@
   
       </div>
   
+      <h2>IL TUO BIGLIETTO</h2>
+
       <div id="ticket-info">
-        <span id="ticket-price"></span>
+
+        <div>
+
+          <h2>DETTAGLI PASSEGGERI</h2>
+
+          <table>
+
+            <thead>
+  
+              <th>Nome passeggero</th>
+              <th>Offerta</th>
+              <th>Carrozza</th>
+              <th>Codice CP</th>
+              <th>Costo biglietto</th>
+            </thead>
+  
+            <tbody>
+  
+              <tr>
+                <td id="name-surname"></td>
+                <td id="offert-tipe"></td>
+                <td>5</td>
+                <td>92911</td>
+                <td id="price"></td>
+              </tr>
+  
+            </tbody>
+  
+          </table>
+
+        </div>
+        
+
+        <!-- <span id="ticket-price"></span> -->
       </div>
 
     </main>      
